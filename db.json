@@ -1,12 +1,83 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "history": [
+    {
+      "date": "Selasa, 01 Nov 2022",
+      "transactions": [
+        {
+          "id": 1,
+          "name": "Top Up Saldo",
+          "amount": 10000,
+          "payment_method": {
+            "provider": "BCA",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+            "type": "bca_mobile"
+          }
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "provider": "BCA",
+      "provider_type": "bca_mobile",
+      "display_name": "M-BCA",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "type": "mobile_banking",
+      "steps": [
+        "Login akun M-BCA",
+        "Pilih menu transfer",
+        "Pilih menu BCA Virtual Account",
+        "Masukan 87562 + Digit nomor ponsel kaka/adik",
+        "Masukan nominal top up",
+        "Ikuti intruksi untuk menyelesaikan transaksi"
+      ]
+    },
+    {
+      "id": 2,
+      "provider": "BNI",
+      "display_name": "BNI Mobile",
+      "provider_type": "bni_mobile",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "type": "mobile_banking",
+      "steps": [
+        "Login akun BNI mobile",
+        "Pilih menu transfer",
+        "Pilih menu Virtual Account Billing",
+        "Masukan 8756 + Digit nomor ponsel kaka/adik",
+        "Masukan nominal top up",
+        "Ikuti intruksi untuk menyelesaikan transaksi"
+      ]
+    },
+    {
+      "id": 3,
+      "provider": "Mandiri",
+      "provider_type": "mandiri_mobile",
+      "display_name": "Livin",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "type": "mobile_banking",
+      "steps": [
+        "Login akun Livin",
+        "Pilih menu Pembayaran",
+        "Pilih menu buat pembayaran baru",
+        "Pilih menu multypayment",
+        "Pilih penyedia jasa dan masukan nomor Ponsel kaka/adik",
+        "Masukan nominal top up",
+        "Ikuti intruksi untuk menyelesaikan transaksi"
+      ]
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
