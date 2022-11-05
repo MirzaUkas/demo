@@ -22,7 +22,7 @@
         {
           "id": 2,
           "name": "Top Up Saldo",
-          "amount": 1000,
+          "amount": 10000,
           "status": false,
           "date": "01 Nov 2022",
           "time": "13.00",
@@ -44,7 +44,7 @@
           "id": 3,
           "name": "Top Up Saldo",
           "amount": 20000,
-          "status": false,
+          "status": true,
           "date": "01 Nov 2022",
           "time": "13.00",
           "reference_code": "ABC12310003",
@@ -132,6 +132,22 @@
       "name": "Top Up Saldo",
       "amount": 10000,
       "status": false,
+      "date": "01 Nov 2022",
+      "time": "13.00",
+      "reference_code": "ABC12310003",
+      "fee": 1000,
+      "total": 11000,
+      "payment_method": {
+        "provider": "Mandiri",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+        "type": "mandiri_mobile"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Top Up Saldo",
+      "amount": 10000,
+      "status": true,
       "date": "01 Nov 2022",
       "time": "13.00",
       "reference_code": "ABC12310003",
