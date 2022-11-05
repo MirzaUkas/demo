@@ -65,7 +65,7 @@
       "provider": "BCA",
       "provider_type": "bca_mobile",
       "display_name": "M-BCA",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_bca.png?alt=media&token=aeebda6d-ef76-4e75-946c-59d58bfc9917",
       "type": "mobile_banking",
       "steps": [
         "Login akun M-BCA",
@@ -81,7 +81,7 @@
       "provider": "BNI",
       "display_name": "BNI Mobile",
       "provider_type": "bni_mobile",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_bni.png?alt=media&token=f5e023eb-5881-478f-9379-d6be037fd404",
       "type": "mobile_banking",
       "steps": [
         "Login akun BNI mobile",
@@ -97,7 +97,7 @@
       "provider": "Mandiri",
       "provider_type": "mandiri_mobile",
       "display_name": "Livin",
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_mandiri.png?alt=media&token=7098a149-7d13-4c19-ac9e-60af35733261",
       "type": "mobile_banking",
       "steps": [
         "Login akun Livin",
@@ -107,6 +107,48 @@
         "Pilih penyedia jasa dan masukan nomor Ponsel kaka/adik",
         "Masukan nominal top up",
         "Ikuti intruksi untuk menyelesaikan transaksi"
+      ]
+    },
+    {
+      "id": 4,
+      "provider": "Indomaret",
+      "provider_type": "merchant",
+      "display_name": "Indomaret",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_indomaret.png?alt=media&token=b3672000-c1dc-4096-b1f2-3488d429e4f6",
+      "type": "indomaret_merchant",
+      "steps": [
+        "Datang ke Indomaret terdekat",
+        "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
+        "Beri tahu nominal yang ingin kamu top up",
+        "Lakukan pembayaran di kasir",
+        "Kasir akan mengisi saldo",
+        "Dan pastikan saldo sudah masuk sebelum pergi"
+      ]
+    },
+    {
+      "id": 5,
+      "provider": "Alfamart",
+      "provider_type": "merchant",
+      "display_name": "Alfamart",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_alfamart.png?alt=media&token=856961d3-1e9a-44f9-9644-80f9b64c082f",
+      "type": "alfa_merchant",
+      "steps": [
+        "Datang ke Alfamart terdekat",
+        "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
+        "Beri tahu nominal yang ingin kamu top up",
+        "Lakukan pembayaran di kasir",
+        "Kasir akan mengisi saldo",
+        "Dan pastikan saldo sudah masuk sebelum pergi"
+      ]
+    },
+    {
+      "id": 6,
+      "provider": "BCA",
+      "provider_type": "bca_one_klik",
+      "display_name": "BCA OneKlik",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_alfamart.png?alt=media&token=856961d3-1e9a-44f9-9644-80f9b64c082f",
+      "type": "instant",
+      "steps": [
       ]
     }
   ],
@@ -144,7 +186,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Top Up Saldo",
       "amount": 10000,
       "status": true,
