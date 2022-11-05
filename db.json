@@ -7,6 +7,12 @@
           "id": 1,
           "name": "Top Up Saldo",
           "amount": 10000,
+          "status": true,
+          "date": "01 Nov 2022",
+          "time": "13.00",
+          "reference_code": "ABC12310002",
+          "fee": 1000,
+          "total": 11000,
           "payment_method": {
             "provider": "BCA",
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
@@ -16,7 +22,13 @@
         {
           "id": 2,
           "name": "Top Up Saldo",
-          "amount": 10000,
+          "amount": 1000,
+          "status": false,
+          "date": "01 Nov 2022",
+          "time": "13.00",
+          "reference_code": "ABC12310003",
+          "fee": 1000,
+          "total": 11000,
           "payment_method": {
             "provider": "Mandiri",
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
@@ -31,7 +43,13 @@
         {
           "id": 3,
           "name": "Top Up Saldo",
-          "amount": 10000,
+          "amount": 20000,
+          "status": false,
+          "date": "01 Nov 2022",
+          "time": "13.00",
+          "reference_code": "ABC12310003",
+          "fee": 1000,
+          "total": 11000,
           "payment_method": {
             "provider": "BCA",
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
@@ -92,19 +110,38 @@
       ]
     }
   ],
-  "comments": [
+  "transactions": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Top Up Saldo",
+      "amount": 10000,
+      "status": true,
+      "date": "01 Nov 2022",
+      "time": "13.00",
+      "reference_code": "ABC12310002",
+      "fee": 1000,
+      "total": 11000,
+      "payment_method": {
+        "provider": "BCA",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+        "type": "bca_mobile"
+      }
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "name": "Top Up Saldo",
+      "amount": 10000,
+      "status": false,
+      "date": "01 Nov 2022",
+      "time": "13.00",
+      "reference_code": "ABC12310003",
+      "fee": 1000,
+      "total": 11000,
+      "payment_method": {
+        "provider": "Mandiri",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+        "type": "mandiri_mobile"
+      }
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
