@@ -12,6 +12,31 @@
             "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
             "type": "bca_mobile"
           }
+        },
+        {
+          "id": 2,
+          "name": "Top Up Saldo",
+          "amount": 10000,
+          "payment_method": {
+            "provider": "Mandiri",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+            "type": "mandiri_mobile"
+          }
+        }
+      ]
+    },
+    {
+      "date": "Rabu, 08 Oct 2022",
+      "transactions": [
+        {
+          "id": 3,
+          "name": "Top Up Saldo",
+          "amount": 10000,
+          "payment_method": {
+            "provider": "BCA",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+            "type": "bca_mobile"
+          }
         }
       ]
     }
