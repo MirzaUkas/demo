@@ -112,10 +112,10 @@
     {
       "id": 4,
       "provider": "Indomaret",
-      "provider_type": "merchant",
+      "provider_type": "indomaret_merchant",
       "display_name": "Indomaret",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_indomaret.png?alt=media&token=b3672000-c1dc-4096-b1f2-3488d429e4f6",
-      "type": "indomaret_merchant",
+      "type": "merchant",
       "steps": [
         "Datang ke Indomaret terdekat",
         "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
@@ -128,10 +128,10 @@
     {
       "id": 5,
       "provider": "Alfamart",
-      "provider_type": "merchant",
+      "provider_type": "alfa_merchant",
       "display_name": "Alfamart",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_alfamart.png?alt=media&token=856961d3-1e9a-44f9-9644-80f9b64c082f",
-      "type": "alfa_merchant",
+      "type": "merchant",
       "steps": [
         "Datang ke Alfamart terdekat",
         "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
@@ -146,7 +146,7 @@
       "provider": "BCA",
       "provider_type": "bca_one_klik",
       "display_name": "BCA OneKlik",
-      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_alfamart.png?alt=media&token=856961d3-1e9a-44f9-9644-80f9b64c082f",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_one_klik.png?alt=media&token=e703d86c-9cd6-466d-a9d2-d3716070f452",
       "type": "instant",
       "steps": [
       ]
