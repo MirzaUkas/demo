@@ -207,9 +207,8 @@
       }
     }
   ],
-  "topup-instant": {
-    "success": 200,
-    "data": {
+  "topup-instant": [
+    {
       "id": 1,
       "name": "Top Up Saldo",
       "amount": 10000,
@@ -230,5 +229,5 @@
         "steps": []
       }
     }
-  }
+  ]
 }
