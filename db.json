@@ -67,6 +67,7 @@
       "display_name": "M-BCA",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_bca.png?alt=media&token=aeebda6d-ef76-4e75-946c-59d58bfc9917",
       "type": "mobile_banking",
+      "fee": 0,
       "steps": [
         "Login akun M-BCA",
         "Pilih menu transfer",
@@ -83,6 +84,7 @@
       "provider_type": "bni_mobile",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_bni.png?alt=media&token=f5e023eb-5881-478f-9379-d6be037fd404",
       "type": "mobile_banking",
+      "fee": 0,
       "steps": [
         "Login akun BNI mobile",
         "Pilih menu transfer",
@@ -97,6 +99,7 @@
       "provider": "Mandiri",
       "provider_type": "mandiri_mobile",
       "display_name": "Livin",
+      "fee": 0,
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_mandiri.png?alt=media&token=7098a149-7d13-4c19-ac9e-60af35733261",
       "type": "mobile_banking",
       "steps": [
@@ -116,6 +119,7 @@
       "display_name": "Indomaret",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_indomaret.png?alt=media&token=b3672000-c1dc-4096-b1f2-3488d429e4f6",
       "type": "merchant",
+      "fee": 0,
       "steps": [
         "Datang ke Indomaret terdekat",
         "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
@@ -132,6 +136,7 @@
       "display_name": "Alfamart",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_alfamart.png?alt=media&token=856961d3-1e9a-44f9-9644-80f9b64c082f",
       "type": "merchant",
+      "fee": 0,
       "steps": [
         "Datang ke Alfamart terdekat",
         "Beritahu nomor HP yang kamu pakai di Aplikasi AyoPramuka",
@@ -148,6 +153,7 @@
       "display_name": "BCA OneKlik",
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_one_klik.png?alt=media&token=e703d86c-9cd6-466d-a9d2-d3716070f452",
       "type": "instant",
+      "fee": 1000,
       "steps": [
       ]
     }
