@@ -154,8 +154,7 @@
       "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_one_klik.png?alt=media&token=e703d86c-9cd6-466d-a9d2-d3716070f452",
       "type": "instant",
       "fee": 1000,
-      "steps": [
-      ]
+      "steps": []
     }
   ],
   "transactions": [
@@ -207,5 +206,29 @@
         "type": "mandiri_mobile"
       }
     }
-  ]
+  ],
+  "topup-instant": {
+    "success": 200,
+    "data": {
+      "id": 1,
+      "name": "Top Up Saldo",
+      "amount": 10000,
+      "status": true,
+      "date": "01 Nov 2022",
+      "time": "13.00",
+      "reference_code": "ABC12310002",
+      "fee": 1000,
+      "total": 11000,
+      "payment_method":  {
+        "id": 6,
+        "provider": "BCA",
+        "provider_type": "bca_one_klik",
+        "display_name": "BCA OneKlik",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/mirzayazdani-19ba7.appspot.com/o/payment-logo%2Fic_one_klik.png?alt=media&token=e703d86c-9cd6-466d-a9d2-d3716070f452",
+        "type": "instant",
+        "fee": 1000,
+        "steps": []
+      }
+    }
+  }
 }
